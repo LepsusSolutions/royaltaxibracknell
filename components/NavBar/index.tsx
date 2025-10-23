@@ -162,7 +162,7 @@ export default function DrawerAppBar(props: Props) {
                     }}
                     sx={{
                         display: { xs: 'block', md: 'none' },
-                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+                        '& .MuiDrawer-paper': { boxSizing: 'border-box', width: `calc(${drawerWidth} - 20px)` },
                     }}
                 >
                     <Box onClick={handleDrawerToggle} sx={{ display: 'flex', flexDirection: 'column', height: '100%' }}>

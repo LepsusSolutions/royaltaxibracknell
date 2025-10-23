@@ -22,7 +22,7 @@ export default function Home() {
     <div>
       <HeroMain />
 
-      <Box maxWidth='lg' mx='auto' my={8} px={{ xs: 0, md: 0 }} display='flex' flexDirection='column' gap={8}>
+      <Box maxWidth='lg' mx='auto' my={8} >
         {/* What we offer */}
         <div>
           <Box>

@@ -52,7 +52,7 @@ export default function FleetOfCars() {
         }
     }
     return (
-        <div>
+        <Box sx={{ overflow: 'hidden' }}>
             <Box>
                 <Typography gutterBottom sx={{ color: 'primary.main', fontWeight: 'bold', textAlign: 'center' }}>FOR A COMFORTABLE JOURNEY</Typography>
                 <Typography variant="h2" gutterBottom sx={{ textAlign: 'center', fontWeight: 900 }}>Our Fleet of Vehicles</Typography>
@@ -66,6 +66,6 @@ export default function FleetOfCars() {
                 <Box sx={style.imageStyle}><Image src={"/images/cars/fleet5.jpg"} width={420} height={126} alt={"Fleet of cars - Royal Executive Cars"} /></Box>
                 <Box sx={style.imageStyle}><Image src={"/images/cars/fleet6.jpg"} width={420} height={229} alt={"Fleet of cars - Royal Executive Cars"} /></Box>
             </Slider>
-        </div>
+        </Box>
     )
 }

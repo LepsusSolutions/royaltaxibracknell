@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-847641034"></Script>
-      <Script src="/script.js" />
+      <Script src="/js/script.js" />
       <body >
         <MUIThemeProvider>
           <Box display={{ xs: 'none', md: 'block' }}>
