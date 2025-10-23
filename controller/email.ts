@@ -17,7 +17,7 @@ export async function sendContactUsEmail({ name, email, phone, city, message }: 
 
   const mailOptions = {
     from: `"No Reply" ${process.env.NO_REPLY_EMAIL_ADDRESS}`,
-    to: process.env.BOOKING_EMAIL_ADDRESS,
+    to: process.env.INFO_EMAIL_ADDRESS,
     subject: `General inquiry from ${name}`,
     replyTo: email,
     html: `<html>
