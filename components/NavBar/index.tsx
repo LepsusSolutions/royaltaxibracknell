@@ -203,7 +203,7 @@ export default function DrawerAppBar(props: Props) {
                             </Box>
                             <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 2 }}>
                                 <EmailIcon sx={{ fontSize: 24, color: 'white' }} />
-                                <Link href={'/contact-bracknell-taxi'} className='unstyledLink'><Typography color='white' variant='body2'>book@royaltaxibracknell.co.uk</Typography></Link>
+                                <Link href={'/get-a-taxi'} className='unstyledLink'><Typography color='white' variant='body2'>book@royaltaxibracknell.co.uk</Typography></Link>
                             </Box>
                         </Box>
                     </Box >
